@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  border: 2px solid #dfdfdf;
+  padding: 5px;
+}
+
+.tags{
+  display: inline-block;
+  background-color: #e2e9e4;
+  margin: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.email-input{
+  height: 30px;
+  border: none;
+  padding: 0 4px;
+}
+.email-input:focus,.email-input:active,.email-input:hover{
+  border: none;
+  outline: none;
+}
+
+.highlight{
+  background-color: #A6C8E0;
+}
+
+.field-clear{
+  width: 6px;
+  height: 6px;
+  vertical-align: middle;
+  padding: 4px;
+  margin: 2px 4px;
+  background-color: #1490b0;
+  cursor: pointer;
+}
+
+.tag-label{
+  padding: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
